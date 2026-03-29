@@ -1,0 +1,35 @@
+{
+  "appId": "com.k3.finance",
+  "productName": "K3财务软件",
+  "directories": {
+    "output": "release"
+  },
+  "files": [
+    "dist/**/*",
+    "dist-electron/**/*"
+  ],
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "resources/icons/icon.ico"
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "installerIcon": "resources/icons/icon.ico",
+    "uninstallerIcon": "resources/icons/icon.ico",
+    "installerHeaderIcon": "resources/icons/icon.ico"
+  },
+  "extraResources": [
+    {
+      "from": "resources",
+      "to": "resources"
+    }
+  ]
+}
