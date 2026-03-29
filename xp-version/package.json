@@ -1,0 +1,24 @@
+{
+  "name": "k3-finance-xp",
+  "version": "1.0.0",
+  "description": "金蝶财务PC软件 - Windows XP兼容版本",
+  "main": "index.html",
+  "nodejs": true,
+  "window": {
+    "title": "金蝶财务软件 K3",
+    "icon": "assets/icon.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 1280,
+    "height": 800,
+    "min_width": 1024,
+    "min_height": 600,
+    "position": "center",
+    "resizable": true
+  },
+  "webkit": {
+    "plugin": true,
+    "java": false
+  },
+  "chromium-args": "--disable-web-security"
+}

@@ -1,0 +1,12 @@
+/*
+ * sql.js 库文件
+ * 
+ * 请从以下地址下载 sql.js 并放置到此目录：
+ * https://github.com/sql-js/sql.js/releases
+ * 
+ * 需要的文件：
+ * - sql-wasm.js
+ * - sql-wasm.wasm
+ * 
+ * 推荐版本: sql.js 1.8.0
+ */
