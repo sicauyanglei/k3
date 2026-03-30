@@ -37,3 +37,7 @@ data/
 .cache/
 .parcel-cache/
 NUL
+
+# NW.js downloads (too large for git)
+xp-version/downloads/
+xp-version/nwjs/
